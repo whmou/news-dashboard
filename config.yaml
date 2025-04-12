@@ -1,0 +1,92 @@
+parsers:
+  - src_type: ptt
+    board_name: Gossiping
+    interval: 300
+    push_cnt_thresh: 45
+  - src_type: ptt
+    board_name: NBA
+    interval: 300
+    push_cnt_thresh: 30
+  - src_type: ptt
+    board_name: Tech_Job
+    interval: 900
+    push_cnt_thresh: 30
+  - src_type: ptt
+    board_name: Stock
+    interval: 300
+    push_cnt_thresh: 25
+  - src_type: ptt
+    board_name: Oversea_Job
+    interval: 3600
+    push_cnt_thresh: 25
+  - src_type: ticker
+    ticker_name: AAPL
+    interval: 120
+  - src_type: ticker
+    ticker_name: GOOG
+    interval: 120
+  - src_type: ticker
+    ticker_name: NVDA
+    interval: 120
+  - src_type: ticker
+    ticker_name: AMZN
+    interval: 120
+  - src_type: ticker
+    ticker_name: MSFT
+    interval: 120
+  - src_type: ticker
+    ticker_name: META
+    interval: 120
+  - src_type: ticker
+    ticker_name: BRK-B
+    interval: 120
+  - src_type: ticker
+    ticker_name: TSLA
+    interval: 120
+  - src_type: ticker
+    ticker_name: AMD
+    interval: 120
+  - src_type: ticker
+    ticker_name: 0056.TW
+    alias_name: 元大高股息
+    interval: 120
+  - src_type: ticker
+    ticker_name: 00692.TW
+    alias_name: 富邦公司治理
+    interval: 120
+  - src_type: ticker
+    ticker_name: 00878.TW
+    alias_name: 國泰永續高股息
+    interval: 120
+  - src_type: ticker
+    ticker_name: 0050.TW
+    alias_name: 元大台灣50
+    interval: 120
+  - src_type: ticker
+    ticker_name: 2330.TW
+    alias_name: 台積電
+    interval: 120
+  - src_type: ticker
+    ticker_name: 006208.TW
+    alias_name: 富邦台50
+    interval: 120
+  - src_type: ticker
+    ticker_name: bitcoin.crypto
+    alias_name: 比特幣(美元)
+    interval: 120
+  - src_type: ticker
+    ticker_name: ethereum.crypto
+    alias_name: 以太幣(美元)
+    interval: 120
+  - src_type: ticker
+    ticker_name: binancecoin.crypto
+    alias_name: 幣安幣(美元)
+    interval: 120
+  - src_type: ticker
+    ticker_name: dogecoin.crypto
+    alias_name: 狗狗幣(美元)
+    interval: 120
+elasticsearch:
+  url: "http://elasticsearch:9200"
+  
+

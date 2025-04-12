@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "properties": {
+      "ID": {
+        "type": "keyword"
+      },
+      "Title": {
+        "type": "text"
+      },
+      "URL": {
+        "type": "text"
+      },
+      "Attribute": {
+        "type": "text"
+      },
+      "doc_timestamp": {
+        "type": "date",
+        "format": "epoch_second"
+      },
+      "Author": {
+        "type": "text"
+      },
+      "Type": {
+        "type": "text"
+      }
+    }
+  }
+}
