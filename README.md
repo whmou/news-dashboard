@@ -72,7 +72,7 @@ done
 2. **Build and Run the Parser**:
    ```bash
    docker build -t my_parser .
-   docker run -e FINNHUB_API_KEY=your_finnhub_api_key --network=news_dashboard_elastic my_parser
+   docker run -e FINNHUB_API_KEY=your_finnhub_api_key --network=news-dashboard_elastic my_parser
    ```
 
 ### Access Services
